@@ -11,10 +11,10 @@ const Navbar = () => {
   };
 
   const items1 = [
-    { name: "Home", id: "home" },
-    { name: "About", id: "about" },
-    { name: "Courses", id: "courses" },
-    { name: "Achivement", id: "achievement" },
+    { name: "Home", id: "home" },//done
+    { name: "About", id: "about" },//done
+    { name: "Courses", id: "courses" },//done
+    { name: "Projects", id: "projects" },
     { name: "Testimonial", id: "testimonial" },
     { name: "Contact", id: "contact" },
   ];
@@ -29,8 +29,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" ">
-      <div className="bg-red-500 flex items-center  justify-between  ">
+    <div className="  ">
+      <div className="bg-red-500 flex items-center drop-shadow-2xl shadow-yellow-400-700  justify-between   ">
         <img
           src="/header_logo.jpeg"
           alt="Description of the image"
@@ -39,7 +39,7 @@ const Navbar = () => {
 
         <div className="text-2xl lg:text-3xl text-slate-100 ">Guaranga Vedic Society</div>
         <div>
-        <div className="hidden   m-2   lg:flex  lg:justify-between ">
+        <div className="hidden   m-2   lg:flex  lg:justify-center ">
           {items1.map((item, i) => (
              
             <Navbarbtn

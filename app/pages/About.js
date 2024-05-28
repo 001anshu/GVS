@@ -1,17 +1,36 @@
 import { monk_img, temple_img } from "@/public/constant";
 import React from "react";
-import EmblaCarousel from "./Carousel";
+import EmblaCarousel from "./EmblaCarousel";
 
 
 const About = () => {
- 
+  // const images = [
+  //   { name: "logo", src: "https://www.haldiavoice.in/images/logo.png" },
+  //   {
+  //     name: "monk_img",
+  //     src: "https://www.vedicgurukul.org/wp-content/uploads/elementor/thumbs/Header01-pzgfug3xyvmk8pgbc3pa4j1apghwzka28nbthjzpck.jpg",
+  //   },
+  //   {
+  //     name: "temple_img",
+  //     src: "https://www.vedicgurukul.org/wp-content/uploads/2022/12/Hearder-sliding-02.jpg",
+  //   },
+  //   {
+  //     name: "book",
+  //     src: "https://img.icons8.com/?size=100&id=112289&format=png&color=000000",
+  //   },
+  // ];
+
   return (
     <>
-    <div className="flex justify-center items-center text-2xl">About</div>
+    <div className="flex justify-center items-center text-2xl"></div>
     <div id="about" className="md:flex p-4 bg-slate-100 m-4">
       
-      <div className="md:flex h-auto relative overflow-hidden w-1/2  ">
-        <EmblaCarousel/>
+      <div className="md:flex m-8 items-center h-1/2 relative overflow-hidden w-1/2   ">
+        <img
+        className="md:w-1/2 "
+        src="/prabhupada.png"
+        alt="prabhupada"
+        />
       </div>
       <div className="mb-4 md:w-1/2">
         <p className=" font-bold m-8">Learning With The Vedic School</p>
