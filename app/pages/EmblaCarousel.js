@@ -25,8 +25,10 @@ export default function EmblaCarousel({images}) {
   return (
     <div className="embla" ref={emblaRef}>
       <div className="embla__container h-full w-full ">
+        
         {images?.map((i) => (
           <div className="embla__slide flex justify-center" key={i.name}>
+            
             <img 
             className="md:h-3/4"
             src={i.src} alt=".." />

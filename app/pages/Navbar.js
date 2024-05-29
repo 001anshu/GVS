@@ -37,7 +37,7 @@ const Navbar = () => {
           className="w-10 m-2  lg:w-20 md:w-16"
         />
 
-        <div className="text-2xl lg:text-3xl text-slate-100 ">Guaranga Vedic Society</div>
+        <div className="text-2xl lg:text-3xl text-slate-100 font-semibold font-mono ">Guaranga Vedic Society</div>
         <div>
         <div className="hidden   m-2   lg:flex  lg:justify-center ">
           {items1.map((item, i) => (

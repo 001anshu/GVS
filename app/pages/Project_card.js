@@ -9,7 +9,7 @@ const Project_card = ({ props }) => {
           <div className="md:flex md:justify-center md:items-center p-4 bg-slate-100 m-4">
           <div className="flex justify-center items-center h-1/2 w-1/2 m-8 relative overflow-hidden">
               <img
-                className="w-1/2 object-contain"
+                className="md:w-1/2 object-contain"
                 src={props.img.src}
                 alt="prabhupada"
               />
@@ -39,7 +39,7 @@ const Project_card = ({ props }) => {
             </div>
             <div className="flex justify-center items-center h-1/2 w-1/2 m-8 relative overflow-hidden">
               <img
-                className="w-1/2 object-contain"
+                className="md:w-1/2 w-full object-contain"
                 src={props.img.src}
                 alt="prabhupada"
               />
